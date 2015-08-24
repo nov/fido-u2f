@@ -15,11 +15,11 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib}/**/*", "LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
 
-  s.add_dependency 'activemodel', '~> 4.0', '<= 4.2'
+  s.add_dependency 'activemodel', '~> 4.0', '<= 4.3'
   s.add_dependency 'adamantium', '~> 0.2'
   s.add_dependency 'virtus', '~> 1.0'
 
-  s.add_development_dependency 'rails', '~> 4.0', '<= 4.2'
+  s.add_development_dependency 'rails', '~> 4.0', '<= 4.3'
   s.add_development_dependency "devise", '~> 3.3', '< 4'
   s.add_development_dependency "minitest-rails", '~> 2.1'
   s.add_development_dependency "pry", '~> 0.10'
